@@ -56,14 +56,15 @@ MY SUMMARY STEPS BEFORE WRITING CODE
     No crashing :: The application does not crash based on user input.
     No unhandled exceptions :: The app has try and catch blocks that are used to capture exceptions and provide useful information to the user. There are no unhandled exceptions.
 
-********* There should exist at least one example in the model classes (Room, Customer, Reservation) that overrides both the hashcode and equals methods to utilize Collections functions like contains.
+    ********* There should exist at least one example in the model classes (Room, Customer, Reservation) that overrides both the hashcode and equals methods to utilize Collections functions 
+    like contains.
 
 
 ANALYSIS BEFORE WRITING A CODE
 
 From taking above steps
 
-OBJECT ORIENTED PROGRAMMING
+OBJECT ORIENTED PROGRAMMING 
 
 1. We need to create three model classes --> Customer, Room, Reservation classes
 
@@ -78,13 +79,14 @@ OBJECT ORIENTED PROGRAMMING
        There is at least one example of the model classes (Room, Customer, Reservation) overriding the toString method.
 
 
-* Room Class ::
+ * Room Class ::
        
        Create IRoom interface and create all the methods need for a room class, Here we are creating IRoom interface because we cam implement this class more than one time.
 
        All the methods creating inside the IRoom interface are abstract methods.
 
-       Abstraction is defined as hiding the unnecessary details (implementation) from the user and to focus on essential details (functionality). It increases the efficiency and thus reduce complexity.
+       Abstraction is defined as hiding the unnecessary details (implementation) from the user and to focus on essential details (functionality). It increases the efficiency and thus reduce 
+  complexity.
 
        Room class implements IRoom interface and its methods.
 
